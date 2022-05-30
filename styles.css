@@ -1,0 +1,97 @@
+body {
+    font-family: Poppins, sans-serif;
+}
+
+h2 {
+    text-decoration: underline;
+    font-size: 35px;
+}
+
+
+/*___Opdracht 1___*/
+#tv-types {
+    color: orange;
+}
+
+#sold-out-tvs {
+    color: darkorange;
+}
+
+#ambilight-tvs {
+    color: orangered;
+}
+
+#prices-low-high {
+    color: indianred;
+}
+
+
+
+/*___Opdracht 2___*/
+#total-sold {
+    color: mediumpurple;
+}
+
+#total-sold2 {
+    color: purple;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+
+#total-stock {
+    color: blue;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#available-stock {
+    color: darkred;
+    font-size: 25px;
+}
+
+
+/*___Opdracht 3___*/
+
+
+
+
+/*___Opdracht 4___*/
+#example-tv {
+    color: limegreen;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+#brand-name-type {
+    border: 1px solid black;
+    color: darkslategrey;
+    font-size: 12px;
+}
+
+
+#one-tv-price {
+    color: greenyellow;
+    font-weight: bolder;
+    font-size: 25px;
+
+}
+
+#tv-sizes {
+    color: aquamarine;
+    font-size: 20px;
+}
+
+#one-tv-info {
+    color: darkseagreen;
+}
+
+#all-tv-info {
+    color: darkolivegreen;
+    list-style-type: none;
+}
+
+
+
+
