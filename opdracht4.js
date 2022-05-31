@@ -1,4 +1,4 @@
-//___OPDRACHT 4___
+//___OPDRACHT 4 --- FUNCTIES___
 /*Maak deze gehele opdracht eerst alsof je het voor één tv doet. We gaan één tv weergeven in het volgende format:
 
     ```
@@ -19,7 +19,7 @@ in het format `[merk] [type] - [naam]` zoals `Philips 43PUS6504/12 - 4K TV` of `
 
 //ANONIEME FUNCTIE
 const createBrandTypeNameFunctie = inventory.map((tvBrandTypeName) => {
-    return `${tvBrandTypeName.brand} ${tvBrandTypeName.type} - ${tvBrandTypeName.name}`;
+    return ` ${tvBrandTypeName.brand}  ${tvBrandTypeName.type}  -  ${tvBrandTypeName.name} `;
 });
 console.log(createBrandTypeNameFunctie)
 
