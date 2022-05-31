@@ -1,9 +1,10 @@
-//___OPDRACHT 1___
+//___OPDRACHT 1 --- Array Methoden___
+
 
 //__________1a__________
 
 const tvTypes = inventory.map((tvType) => {
-    return tvType.name;
+    return ` ${tvType.name} `
 });
 console.log(tvTypes)
 
@@ -15,10 +16,10 @@ typesOfTv.innerHTML = `<h4>${tvTypes}</h4>`;
 const soldOuts = inventory.filter((soldOut) => {
     return soldOut.originalStock === soldOut.sold;
 });
-// console.log(soldOuts)
+console.log(soldOuts)
 
 const soldOutTvs = document.getElementById("sold-out-tvs");
-soldOutTvs.innerHTML = `${soldOuts}`;
+soldOutTvs.innerHTML = `Sold out Tv's: ${soldOuts}`;
 
 
 //__________1c___________
@@ -26,11 +27,12 @@ soldOutTvs.innerHTML = `${soldOuts}`;
 const ambiLightTvs = inventory.filter((ambiLight) => {
     return ambiLight.options.ambiLight === true;
 });
+const ambiTv = ambiLightTvs;
 console.log("Tv with ambilights:")
-console.log(ambiLightTvs)
+console.log(ambiTv)
 
 const withLights = document.getElementById("ambilight-tvs");
-withLights.innerHTML = `Tv's with ambilights: ${ambiLightTvs}`;
+withLights.innerHTML = `Tv's with ambilights: ${ambiTv}`;
 
 
 //__________1d___________

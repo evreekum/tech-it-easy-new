@@ -1,4 +1,4 @@
-//___OPDRACHT 2___
+//___OPDRACHT 2 --- Elementen in de DOM plaatsen___
 
 //**Opdracht 2a:** Hoeveel tv's zijn er al verkocht? Schrijf een script dat dit berekent. Log de uitkomst in de console.
 // Stappen:
